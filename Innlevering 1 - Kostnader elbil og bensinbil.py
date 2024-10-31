@@ -40,5 +40,4 @@ billigst            = 'elbil' if differanse > 0 else 'bensinbil' if differanse <
 ### presentasjon av resultat
 print(f"Årlig kostnad elbil = {kostnad_el} kroner")
 print(f"Årlig kostnad bensinbil = {kostnad_bensin} kroner")
-print(f"Årlig kostnadsdifferanse = {differanse} kroner, og {billigst} er billigst!")
-
+print(f"Årlig kostnadsdifferanse = {abs(differanse)} kroner, og {billigst} er billigst!")
