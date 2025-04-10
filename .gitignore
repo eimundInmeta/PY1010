@@ -12,4 +12,27 @@
 /.vs/PY1010/FileContentIndex/4580923d-b5a0-4ee5-8172-376d48b31674.vsidx
 *.vsidx
 .vs/PY1010/v17/.wsuo
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook runtime files
+*.nbconvert.ipynb
+
+# VS Code settings (hvis aktuelt)
+.vscode/
+
+# Miljøfiler
+.env
+.venv/
+env/
+venv/
+
+# Datafiler (valgfritt, hvis du ikke vil tracke CSV/Excel etc.)
+*.csv
+*.parquet
+*.h5
